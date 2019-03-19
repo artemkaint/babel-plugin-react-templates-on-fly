@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-react-templates-on-fly",
+  "version": "0.0.1",
+  "description": "Convert react template files to plain js on fly without generating proxy file",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel --out-dir lib src",
+    "prepublish": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemkaint/babel-plugin-react-templates-on-fly.git"
+  },
+  "keywords": [
+    "react",
+    "templates",
+    "babylon",
+    "babel"
+  ],
+  "author": "Artem Soltynskiy <artemkaint@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artemkaint/babel-plugin-react-templates-on-fly/issues"
+  },
+  "homepage": "https://github.com/artemkaint/babel-plugin-react-templates-on-fly#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4"
+  },
+  "dependencies": {
+    "babylon-react-templates-parser": "^1.0.1"
+  }
+}
